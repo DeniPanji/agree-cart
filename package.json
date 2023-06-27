@@ -7,7 +7,6 @@
     "node": "8.9.3"
   },
   "scripts": {
-    "install": "npm install --legacy-peer-deps",
     "start": "node index.js",
     "junit": "_mocha \"test/**/*_test.js\" --timeout=5000 --reporter mocha-junit-reporter",
     "test": "mocha \"test/unit/modules/product/repositories/commands/command_handler_test.js\" --timeout=5000",
